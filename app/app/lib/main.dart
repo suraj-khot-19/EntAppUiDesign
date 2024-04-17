@@ -1,5 +1,4 @@
 import 'package:app/config/app_color.dart';
-import 'package:app/resources/button.dart';
 import 'package:app/resources/values_manager.dart';
 import 'package:app/screens/w1.dart';
 import 'package:app/screens/w10.dart';
@@ -23,7 +22,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: EditableText.debugDeterministicCursor,
       title: 'Entertainment App',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: AppColors.innerInputText),
@@ -31,7 +29,7 @@ class MyApp extends StatelessWidget {
       ),
       home: Scaffold(
         appBar: AppBar(
-          title: const Center(child: Text("My UI")),
+          title: const Center(child: Text("My UI Design's")),
         ),
         body: SingleChildScrollView(
           child: Padding(
