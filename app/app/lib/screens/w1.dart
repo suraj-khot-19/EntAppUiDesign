@@ -1,9 +1,7 @@
-// Jessica Chastain
-
-import "package:app/config/app_color.dart";
 import "package:app/config/app_textstyle.dart";
 import "package:app/resources/asset_manger.dart";
 import "package:app/resources/string_manager.dart";
+import "package:app/screens/slider.dart";
 import "package:flutter/material.dart";
 
 class Ent13 extends StatelessWidget {
@@ -258,35 +256,6 @@ class Ent13 extends StatelessWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-//slider code
-class SliderWidget extends StatefulWidget {
-  //const SliderWidget({Key? key}) : super(key: key);
-  @override
-  _SliderWidgetState createState() => _SliderWidgetState();
-}
-
-class _SliderWidgetState extends State<SliderWidget> {
-  double _currentSliderValue = 0;
-
-  @override
-  Widget build(BuildContext context) {
-    return Slider(
-      activeColor: AppColors.blue,
-      inactiveColor: AppColors.grey,
-      value: _currentSliderValue,
-      min: 0,
-      max: 100,
-      divisions: 100,
-      label: _currentSliderValue.round().toString(),
-      onChanged: (double value) {
-        setState(() {
-          _currentSliderValue = value;
-        });
-      },
     );
   }
 }
