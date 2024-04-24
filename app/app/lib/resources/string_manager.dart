@@ -53,4 +53,8 @@ class AppStrings {
 
   static const String fearOfNight1 = "Fear of the night";
   static const String fearOfNight2 = "Nandi ft. Klementieff";
+
+  static const String vdk1 = "Arjun Reddy";
+  static const String vdk2 = "Telisiney Na Nuvvey";
+  static const String lyrics = "Lyrics";
 }

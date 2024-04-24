@@ -22,4 +22,6 @@ class ImageAssets {
   static const String spider = "assets/spidarman.png";
   static const String doct = "assets/doct_stranger.png";
   static const String fearOfNight = "assets/fearOfNight.png";
+
+  static const String vdk = "assets/vdk.jpeg";
 }

@@ -2,6 +2,7 @@ import 'package:app/config/app_color.dart';
 import 'package:app/resources/values_manager.dart';
 import 'package:app/screens/w1.dart';
 import 'package:app/screens/w10.dart';
+import 'package:app/screens/w11.dart';
 import 'package:app/screens/w2.dart';
 import 'package:app/screens/w3.dart';
 import 'package:app/screens/w4.dart';
@@ -38,6 +39,7 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                widgetWithBorder(const W11()),
                 widgetWithBorder(const Ent13()),
                 widgetWithBorder(const Ent32()),
                 widgetWithBorder(const Ent33()),
